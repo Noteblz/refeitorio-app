@@ -1,5 +1,5 @@
 // Nome da caixa (cache). Troque o número a cada atualização: v1, v2, v3...
-const VERSAO = 'refeitorio-v1';
+const VERSAO = 'refeitorio-v2';
 
 const ARQUIVOS = [
     './',
@@ -92,4 +92,5 @@ if (ehIOS && !jaInstalado) {
 
 document.querySelector('#botao-fechar-ios').addEventListener('click', () => {
     avisoIOS.hidden = true;
+
 });
