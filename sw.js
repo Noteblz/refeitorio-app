@@ -1,5 +1,5 @@
 // Nome da caixa (cache). Troque o número a cada atualização: v1, v2, v3...
-const VERSAO = 'refeitorio-v1';
+const VERSAO = 'refeitorio-v2';
 
 const ARQUIVOS = [
     './',
@@ -42,4 +42,5 @@ self.addEventListener('fetch', (evento) => {
             })
             .catch(() => caches.match(evento.request))
     );
+
 });
