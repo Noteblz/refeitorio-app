@@ -44,7 +44,7 @@ function mostrar() {
     barra.style.width = porcento + '%';
     barra.classList.toggle('cheio', porcento >= 80);
 
-    const lista = document.querySelector('#lista-dentro');
+    const lista = document.querySelector('#lista-registros');
     lista.innerHTML = '';
     if (registros.length === 0) {
         const vazio = document.createElement('li');

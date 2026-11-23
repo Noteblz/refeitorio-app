@@ -49,8 +49,8 @@ self.addEventListener('fetch', (evento) => {
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
         navigator.serviceWorker.register('./sw.js')
-            .then(() => console.log('✅ Service Worker registrado'))
-            .catch((erro) => console.log('❌ Erro no Service Worker:', erro));
+            .then(() => console.log('✅ Service worker registrado'))
+            .catch((erro) => console.log('❌ Erro no service worker:', erro));
     });
 }
 
